@@ -69,7 +69,7 @@
             position: absolute;
             top: 0;         /* Canto superior */
             left: 0;        /* Canto esquerdo */
-            width: 20%;     /* Agora é 20% da largura para 50% menor */
+            width: 20%;     /* Agora é 10% da largura para 30% menor */
             height: auto;   /* Mantém a proporção da imagem */
         }
     </style>
