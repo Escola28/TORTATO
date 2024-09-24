@@ -12,8 +12,8 @@
             padding: 0;
         }
         header {
-            background-color: #4CAF50;
-            color: white;
+            background-color: white; /* Alterado para branco */
+            color: #003366; /* Alterado para azul escuro */
             text-align: center;
             padding: 20px;
         }
@@ -64,22 +64,19 @@
             padding: 10px;
             text-align: center;
         }
-         }
         .imagem {
             position: absolute;
-            top: 0;         /* Canto superior */
-            left: 0;        /* Canto esquerdo */
-            width: 20%;     /* Agora é 10% da largura para 30% menor */
-            height: auto;   /* Mantém a proporção da imagem */
+            top: 0;
+            left: 0;
+            width: 20%;
+            height: auto;
         }
     </style>
 </head>
 <body>
 
 <header>
-          <img src="WhatsApp Image 2024-09-23 at 20.55.00.jpeg" alt="Descrição da Imagem" class="imagem" width="200"
-       height="200">
-
+    <img src="WhatsApp Image 2024-09-23 at 20.55.00.jpeg" alt="Descrição da Imagem" class="imagem" width="200" height="200">
     <h1>Colégio Estadual Antonio Tortato</h1>
 </header>
 
