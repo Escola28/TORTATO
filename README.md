@@ -17,6 +17,11 @@
             text-align: center;
             padding: 20px;
         }
+        header img {
+            width: 200px; /* Tamanho da imagem */
+            height: auto; /* Mantém a proporção */
+            margin-bottom: 20px; /* Espaço entre a imagem e o título */
+        }
         header h1 {
             font-size: 2.5em;
         }
@@ -64,19 +69,12 @@
             padding: 10px;
             text-align: center;
         }
-        .imagem {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 20%;
-            height: auto;
-        }
     </style>
 </head>
 <body>
 
 <header>
-    <img src="WhatsApp Image 2024-09-23 at 20.55.00.jpeg" alt="Descrição da Imagem" class="imagem" width="200" height="200">
+    <img src="WhatsApp Image 2024-09-23 at 20.55.00.jpeg" alt="Descrição da Imagem">
     <h1>Colégio Estadual Antonio Tortato</h1>
 </header>
 
@@ -97,3 +95,5 @@
     Aluna: Bianca Nascimento - Email: <a href="mailto:santos.nascimento.bianca@escola.pr.gov.br" style="color: #fff;">santos.nascimento.bianca@escola.pr.gov.br</a><br>
     Professora Orientadora: Patrícia Ferro - Email: <a href="mailto:patricia.ferro@escola.pr.gov.br" style="color: #fff;">patricia.ferro@escola.pr.gov.br</a>
 </footer>
+</body>
+</html>
